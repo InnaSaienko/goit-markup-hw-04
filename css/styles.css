@@ -224,6 +224,8 @@ h3 {
 }
 
 address {
+    display: flex;
+    align-items: center;
     font-style: normal;
 }
 
