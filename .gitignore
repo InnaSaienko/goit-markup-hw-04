@@ -1,6 +1,8 @@
 # OS files
 .DS_Store
 Thumbs.db
+.vscode/*
+!.vscode/extensions.json
 
 # Editor/IDE
 .vscode/
@@ -8,3 +10,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+node_modules
+dist
+dist-ssr
+*.local
