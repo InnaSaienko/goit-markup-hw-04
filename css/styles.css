@@ -138,17 +138,6 @@ h3 {
 .brand-logo {
     display: inline-block;
     margin-right: 76px;
-    font-family: "Raleway", sans-serif; /*redundant*/
-    font-weight: 700; /*redundant*/
-    font-size: 18px; /*redundant*/
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
-}
-
-.span-logo {
-    color: var(--grey);
 }
 
 .link {
