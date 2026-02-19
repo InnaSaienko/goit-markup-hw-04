@@ -222,7 +222,7 @@ h3 {
     }
 }
 
-.nav-link .current {
+.current {
     color: var(--interactive-color);
 }
 
@@ -236,7 +236,7 @@ h3 {
     background: var(--interactive-color);
     border-radius: 2px;
     color: var(--interactive-color);
-    transition: background-color var(--transition);
+    transition: color var(--transition);
 }
 
 address {
