@@ -224,6 +224,7 @@ h3 {
     &.current::after {
         content: '';
         display: block;
+        flex-shrink: 0;
         height: 4px;
         width: 100%;
         margin-top: 20px;
