@@ -313,10 +313,17 @@ p {
 
 .feature-item {
     width: calc((100% - 72px) / 4);
+
+    .feature-svg-wrapper {
+        background: var(--cloud);
+        border: 1px solid var(--light-slate);
+        border-radius: 4px;
+        padding: 24px 100px;
+    }
 }
 
 .feature-title {
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 
 .team {
