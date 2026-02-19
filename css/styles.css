@@ -224,19 +224,19 @@ h3 {
 
 .nav-link .current {
     color: var(--interactive-color);
+}
 
-    & ::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        width: 100%;
-        background: var(--interactive-color);
-        border-radius: 2px;
-        color: var(--interactive-color);
-        transition: background-color var(--transition);
-    }
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 100%;
+    background: var(--interactive-color);
+    border-radius: 2px;
+    color: var(--interactive-color);
+    transition: background-color var(--transition);
 }
 
 address {
@@ -259,7 +259,7 @@ p {
 
 .contact-link {
     color: var(--slate);
-    transition: background-color var(--transition);
+    transition: color var(--transition);
 }
 
 .contact-link:hover, .contact-link:focus {
