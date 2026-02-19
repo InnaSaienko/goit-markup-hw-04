@@ -167,11 +167,11 @@ h3 {
     line-height: 1.5;
     letter-spacing: var(--ls-m);
     cursor: pointer;
+    transition: background-color var(--transition);
 }
 
 .button:hover, .button:focus {
     background-color: var(--interactive-color);
-    transition: background-color var(--transition);
 }
 
 .section-title {
