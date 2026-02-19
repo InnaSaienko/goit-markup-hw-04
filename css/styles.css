@@ -321,10 +321,14 @@ p {
     width: calc((100% - 72px) / 4);
 
     .feature-svg-wrapper {
-        background: var(--cloud);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: var(--cloud);
         border: 1px solid var(--light-slate);
         border-radius: 4px;
-        padding: 24px 100px;
+        margin-bottom: 8px;
     }
 }
 
