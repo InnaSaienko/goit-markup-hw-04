@@ -171,7 +171,7 @@ h3 {
 
 .button:hover, .button:focus {
     background: var(--interactive-color);
-    transition: var(--transition);
+    transition: var(--interactive-color) var(--transition);
 }
 
 .section-title {
