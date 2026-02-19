@@ -222,19 +222,22 @@ h3 {
     }
 }
 
-.nav-link .current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    width: 100%;
-    background: var(--interactive-color);
-    border-radius: 2px;
+.nav-link .current {
     color: var(--interactive-color);
-    transition: var(--transition);
-}
 
+    & ::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        width: 100%;
+        background: var(--interactive-color);
+        border-radius: 2px;
+        color: var(--interactive-color);
+        transition: var(--transition);
+    }
+}
 
 address {
     display: flex;
