@@ -463,7 +463,7 @@ p {
     transition: transform var(--transition);
 }
 
-.portfolio-item:hover p {
+.portfolio-item:hover .portfolio-image_description {
     transform: translateY(0%);
 }
 
