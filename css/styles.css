@@ -444,7 +444,7 @@ p {
     /*transition: box-shadow var(--transition);*/
 }
 
-.portfolio-item:hover .portfolio-image_description {
+.portfolio-item:hover .portfolio-image-wrapper p {
     transform: translateY(0%);
 }
 
