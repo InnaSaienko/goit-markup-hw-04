@@ -443,10 +443,6 @@ p {
     box-shadow: var(--box-shadow);
 }
 
-.portfolio-item:hover .p {
-    transform: translateY(0%);
-}
-
 .portfolio-image-wrapper {
     position: relative;
     overflow: hidden;
@@ -467,6 +463,9 @@ p {
     transition: transform var(--transition);
 }
 
+.portfolio-item:hover p {
+    transform: translateY(0%);
+}
 
 .portfolio-image {
     display: block; /* removes inline white gap */
