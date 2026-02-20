@@ -443,7 +443,7 @@ p {
     box-shadow: var(--box-shadow);
 }
 
-.portfolio-item:hover .portfolio-image_description {
+.portfolio-item:hover .p {
     transform: translateY(0%);
 }
 
