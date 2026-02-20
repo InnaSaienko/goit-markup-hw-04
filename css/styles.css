@@ -523,6 +523,10 @@ p {
     gap: 16px;
 }
 
+.social-item-link_footer:hover, .social-item-link_footer:focus {
+    background-color: var(--footer-interactive-color);
+}
+
 .social-title {
     font-size: var(--fs-s);
     font-weight: 500;
